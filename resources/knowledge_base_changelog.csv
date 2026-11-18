@@ -1,0 +1,5 @@
+changed_at,kb_version,action,rule_id,reason,source_sample_id,reviewer
+2026-11-03,kb-1855964447a3,architecture,*,统一特征与审计证据引擎并加入子句级情感和语句类型判定,,system
+2026-11-03,kb-1855964447a3,update,PRICE_LOW,修复性价比高被单字高误判为负面,,system
+2026-11-03,kb-1855964447a3,update,SERVICE_DELIVERY,补充物流快慢的方向性情感规则,,system
+2026-11-03,kb-1855964447a3,update,TASTE_SWEET,区分不太甜中性与过甜负面并识别诉求句,,system

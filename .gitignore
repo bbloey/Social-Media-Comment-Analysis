@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local runtime artifacts and model caches
+outputs/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# User-provided data and generated exports
+*.xlsx
+*.xls
+*.parquet
+*.zip
+decision_audit.csv
+feature_review_feedback.csv
+gold_standard*.csv
