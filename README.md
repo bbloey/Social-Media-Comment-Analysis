@@ -19,6 +19,22 @@ python -m streamlit run app.py --server.address 127.0.0.1
 
 也可在 PowerShell 中运行 `./start.ps1`。打开终端显示的本地地址。
 
+## 在线示例部署
+
+仓库包含可直接用于 Streamlit Community Cloud 的英文示例目录：
+
+```text
+examples/streamlit-dashboard/
+```
+
+部署时选择：
+
+- Repository：`bbloey/Social-Media-Comment-Analysis`
+- Branch：`main`
+- Main file path：`examples/streamlit-dashboard/app.py`
+
+示例目录提供合成评论数据，不包含真实消费者或业务数据。详细步骤见 [Streamlit Dashboard Demo](examples/streamlit-dashboard/README.md)。离线规则看板无需 API Key；模型能力为可选配置，真实密钥不得提交到 GitHub。
+
 Python 3.12 需要复现本次测试版本时，可安装 `requirements-lock-py312.txt`。
 
 侧栏默认使用 GPT-5.6 Sol 和 OpenAI Responses API，也保留兼容 Chat Completions 模式。可通过 `OPENAI_API_KEY`、`OPENAI_BASE_URL`、`OPENAI_MODEL` 等环境变量设置；密钥不保存到项目文件。
